@@ -1,0 +1,114 @@
+@keyframes PokebolaZoom {
+    from{top: 425px; width: 40px; height: 40px;}
+    to{top: 400px; width: 50px; height: 50px;}
+}
+@keyframes PokebolaVoltando {
+    from{top: 400px; width: 50px; height: 50px;}
+    to{top: 425px; width: 40px; height: 40px;}
+}
+@keyframes PokemonChamado0 {
+    from{width: 10px; height: 10px;filter: brightness(0%);}
+    to{width: 80px; height: 80px; top: 515px; left: 945px;filter: brightness(100%);}
+}
+@keyframes PokemonSaindo0 {
+    from{width: 80px; height: 80px; top: 515px; left: 945px;}
+    to{width: 10px; height: 10px; top: 560px; left: 975px;filter: brightness(0%);}
+}
+@keyframes PokemonChamado1 {
+    from{width: 10px;height: 10px;filter: brightness(0%)}
+    to{top:530px;left: 1010px;width: 80px;height: 80px;filter: brightness(100%)}
+}
+@keyframes PokemonSaindo1 {
+    from{width: 80px; height: 80px; top: 530px; left: 1010px;}
+    to{width: 10px; height: 10px; top: 550px; left: 1035px;filter: brightness(0%);}
+}
+@keyframes PokemonChamado2 {
+    from{width: 10px;height: 10px;filter: brightness(0%)}
+    to{top:525px;left: 1070px;width: 80px;height: 80px;filter: brightness(100%)}
+}
+@keyframes PokemonSaindo2 {
+    from{width: 80px; height: 80px; top: 525px; left: 1070px;}
+    to{width: 10px; height: 10px; top: 550px; left: 1100px;filter: brightness(0%);}
+}
+body {
+    margin: 0%;
+    background-image: url(imagens/BackgroundPokemon.png);
+    padding: 0%;
+}
+img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 425px;
+}
+#pokeB0 {
+    left: 917px;
+}
+#pokeB1 {
+    left: 977px;
+}
+#pokeB2 {
+    left: 1037px;
+}
+div {
+    
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 420px;
+}
+#ppokeB0 {
+    left: 913px;
+}
+#ppokeB1 {
+    left: 973px;
+}
+#ppokeB2 {
+    left: 1033px;
+}
+#efeito2 {
+    top: 290px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 948px;
+}
+#efeito1 {
+    position: absolute;
+    top: 290px;
+    width: 350px;
+    height: 350px;
+    left: 886px;
+}
+#efeito0 {
+    position: absolute;
+    top: 290px;
+    width: 350px;
+    height: 350px;
+    left: 825px;
+}
+#pokemon0 {
+    position: absolute;
+    top: 560px;
+    left: 975px;
+    width: 10px;
+    height: 10px;
+    filter: brightness(0%);
+}
+#pokemon1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 550px;
+    left: 1035px;
+    filter: brightness(0%);
+}
+#pokemon2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top:550px;
+    left: 1100px;
+    filter: brightness(0%);
+}
